@@ -1,0 +1,10 @@
+10 > 5  # True
+3 < 7  # True
+8 >= 8  # True
+4 <= 5  # True
+5 == 5  # True
+5 != 10  # True
+100 > 50  # True
+2 < 4  # True
+50 >= 40  # True
+3 <= 5  # True
