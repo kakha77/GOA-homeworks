@@ -1,0 +1,16 @@
+.header {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
