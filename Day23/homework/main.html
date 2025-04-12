@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tables</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px 0;
+            width: 80%;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 8px 12px;
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Weather Station</h2>
+    <table>
+        <tr>
+            <th rowspan="2">Station</th>
+            <th colspan="2">Temperature</th>
+            <th rowspan="2">Humidity</th>
+            <th rowspan="2">Weather</th>
+        </tr>
+        <tr>
+            <th>Max</th>
+            <th>Min</th>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>24</td>
+            <td>19</td>
+            <td>60%</td>
+            <td>cloudy</td>
+        </tr>
+        <tr>
+            <td>Germany</td>
+            <td>5</td>
+            <td>-1</td>
+            <td>70%</td>
+            <td>Rainy</td>
+        </tr>
+    </table>
+
+    <h2>Students Records</h2>
+    <table>
+        <tr>
+            <th>Roll_no</th>
+            <th>Name</th>
+            <th>Total marks</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>khan</td>
+            <td>500</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nazia</td>
+            <td>850</td>
+            <td>A+</td>
+        </tr>
+    </table>
+
+    <h2>Batch</h2>
+    <table>
+        <tr>
+            <th>Batch</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Computer Science</td>
+            <td>Abhishek</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td colspan="3">Break</td>
+        </tr>
+    </table>
+
+</body>
+</html>
