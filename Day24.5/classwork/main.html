@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>ვებ გვერდის ელემენტები</title>
+</head>
+<body>
+
+  <h2>სურათები</h2>
+  <img src="image1.jpg">
+  <img src="image2.jpg">
+
+  <h2>აუდიო ფაილები</h2>
+  <audio controls>
+    <source src="audio1.mp3" type="audio/mp3">
+  </audio>
+
+  <audio controls>
+    <source src="audio2.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- 
+    source ტეგი განსაზღვრავს აუდიო/ვიდეო ფაილის წყაროს,
+    ხოლო src წარმოადგენს ფაილის მისამართს.
+  -->
+
+  <h2>რეგისტრაციის ფორმა</h2>
+  <form>
+    <label>სახელი: <input type="text" name="name"></label><br>
+    <label>გვარი: <input type="text" name="surname"></label><br>
+    <label>პაროლი: <input type="password" name="password"></label>
+  </form>
+
+  <h2>აირჩიე მანქანა</h2>
+  <select>
+    <option>opel</option>
+    <option>mercedes</option>
+    <option>tesla</option>
+    <option>lamborghini</option>
+  </select>
+
+  <h2>CSS3 Browser Support (latest browser versions)</h2>
+  <table border="1">
+    <tr>
+      <th>CSS Property</th>
+      <th>Internet Explorer</th>
+      <th>FireFox</th>
+      <th>Chrome</th>
+      <th>Safari</th>
+      <th>Opera</th>
+    </tr>
+    <tr>
+      <td>Border Radius</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>Box Shadow</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>YES</td>
+    </tr>
+    <tr>
+      <td>CSS Animations</td>
+      <td>NO</td>
+      <td>NO</td>
+      <td>YES</td>
+      <td>YES</td>
+      <td>NO</td>
+    </tr>
+  </table>
+
+</body>
+</html>
