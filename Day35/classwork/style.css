@@ -1,0 +1,13 @@
+table{
+    border-collapse: collapse;
+}
+
+th{
+    text-align: right;
+}
+
+
+.td{
+    border: 1px solid black;
+    background-color: yellow;
+}
