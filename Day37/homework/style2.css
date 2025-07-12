@@ -1,0 +1,41 @@
+.grocery-card {
+  width: 220px;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.grocery-header {
+  background: linear-gradient(to right, #ff4d94, #ff9966);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.grocery-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+.grocery-list li {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.grocery-list li::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 12px;
+}

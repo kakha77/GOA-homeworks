@@ -1,0 +1,14 @@
+ul.blue-list {
+  background-color: #add8e6;
+  width: 200px;
+  padding: 10px;
+  border: 3px solid #0000ff;
+  list-style-type: disc;
+}
+
+ul.blue-list li {
+  background-color: #87cefa;
+  margin: 5px 0;
+  padding: 8px;
+  font-weight: bold;
+}

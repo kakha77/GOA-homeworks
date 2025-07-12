@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Send Us a Message</h2>
+    <p>Please fill in the form below to get in touch with us.</p>
+    <form>
+      <div class="row">
+        <input type="text" placeholder="First name" required>
+        <input type="text" placeholder="Last name" required>
+      </div>
+      <div class="row">
+        <input type="email" placeholder="Email address" required>
+        <input type="tel" placeholder="Phone Number">
+      </div>
+      <textarea placeholder="Message" rows="4" required></textarea>
+      <div class="checkbox-row">
+        <input type="checkbox" required>
+        <label>
+          I've read and agree with 
+          <a href="#">Terms of Service</a> and 
+          <a href="#">Privacy Policy</a>
+        </label>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
