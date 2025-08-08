@@ -1,0 +1,8 @@
+.container {
+  display: flex; /* Flexbox-ს ვრთავთ ამის დახმარებით */
+  flex-direction: row; /* მიმართულებას უცვლის row, column */
+  justify-content: center; /* ჰორიზონტალურად განალაგებს */
+  align-items: center; /* ვერტიკალურად განალაგებს */
+  flex-wrap: wrap; /* თუ ადგილი არ ეყოფა გადავა ახალ ხაზზე */
+  gap: 10px; /*ელემენტებს შორის აკეთებს დაშორებას */
+}
