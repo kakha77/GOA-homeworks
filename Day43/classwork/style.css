@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.section1 {
+  position: static;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.section2 {
+  position: relative;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.section2 .box {
+  position: static;
+  padding: 10px;
+}
+
+.section3 {
+  position: relative;
+  padding: 60px;
+  margin-bottom: 40px;
+}
+
+.section3 .absolute-box {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
