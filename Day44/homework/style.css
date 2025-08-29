@@ -1,0 +1,44 @@
+/*  
+  static   -> ნაგულისხმევი პოზიციონირება, დოკუმენტის ჩვეულებრივ ნაკადში.  
+  relative -> ინარჩუნებს ადგილს, მაგრამ შეგვიძლია შევაცვლევინოთ პოზიცია top,left,right,bottom-ით.  
+  absolute -> გამოდის დოკუმენტის ნაკადიდან და პოზიციონირდება უახლოეს პოზიციონირებულ მშობელთან.  
+  fixed    -> ფიქსირდება ეკრანზე და არ მოძრაობს scroll-ისას.  
+  sticky   -> მუშაობს როგორც relative, მაგრამ scroll-ისას ხდება fixed კონკრეტულ პოზიციაზე.  
+*/
+
+.relative-div {
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.absolute-div {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+  position: absolute;
+  top: 230px;
+  right: 140px;
+}
+
+.fixed-div {
+  width: 120px;
+  height: 120px;
+  background-color: tomato;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+.image-div {
+  width: 500px;
+  height: 500px;
+  background-image: url("https://tse4.mm.bing.net/th/id/OIP.qDvAlhidTBzXiGyDfq_O0gHaE7?pid=Api&P=0&h=180");
+  background-size: cover;
+  background-position: center;
+  border: 3px solid black;
+  margin-top: 20px;
+}
