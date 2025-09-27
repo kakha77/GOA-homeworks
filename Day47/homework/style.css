@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#parent {
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 15px;
+    width: 50%;
+
+    grid-template-areas: 
+    "   main   main   main   main   main   main   main   sidebar   sidebar   sidebar   "
+    "   main   main   main   main   main   main   main   sidebar   sidebar   sidebar   "
+    "   main   main   main   main   main   main   main   sidebar   sidebar   sidebar   "
+    "   main   main   main   main   main   main   main   sidebar   sidebar   sidebar   "
+    "   main   main   main   main   main   main   main   sidebar   sidebar   sidebar   "
+    "   twin1   twin1   twin1   twin1   twin1   twin2   twin2   twin2   twin2   twin2   "
+    "   twin1   twin1   twin1   twin1   twin1   twin2   twin2   twin2   twin2   twin2   "
+    "   twin1   twin1   twin1   twin1   twin1   twin2   twin2   twin2   twin2   twin2   "
+    "   twin1   twin1   twin1   twin1   twin1   twin2   twin2   twin2   twin2   twin2   "
+    ;
+}
+
+#parent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.main {
+    background-color: chartreuse;
+    grid-area: main;
+}
+
+.sidebar {
+    background-color: rgb(181, 0, 181);
+    grid-area: sidebar;
+}
+
+.twin1 {
+    grid-area: twin1;
+}
+
+.twin2 {
+    grid-area: twin2;
+}
+
+.twin {
+    background-color: orange;
+}
