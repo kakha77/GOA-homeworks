@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f9f4fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.reviews-section {
+  max-width: 1000px;
+  text-align: left;
+}
+
+.header h1 {
+  color: #2e0e50;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #6b567b;
+  margin-bottom: 20px;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.rating {
+  background: #f3e9fc;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #4c2d73;
+  display: inline-block;
+}
+
+.testimonials {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #4c2d73;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.profile h3 {
+  font-size: 1rem;
+}
+
+.profile p {
+  font-size: 0.8rem;
+  color: #d9bff5;
+}
+
+.quote {
+  font-style: italic;
+  line-height: 1.4;
+}
