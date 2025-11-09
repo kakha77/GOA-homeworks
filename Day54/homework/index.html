@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #f8f8f8;
+    }
+    .container {
+        display: flex;
+        background: white;
+        width: 900px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    .left {
+        background: linear-gradient(180deg, #9c27b0, #d05ce3);
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .phone-mockup {
+        width: 200px;
+        height: 400px;
+        background: white;
+        border-radius: 30px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .chat-bubble {
+        background: #f1f1f1;
+        padding: 10px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        max-width: 70%;
+    }
+    .chat-bubble.user {
+        background: #9c27b0;
+        color: white;
+        align-self: flex-end;
+    }
+    .button {
+        background: #9c27b0;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    .right {
+        flex: 1;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .right h1 {
+        margin: 0;
+        font-size: 32px;
+        color: #111;
+    }
+    .right p {
+        margin-top: 15px;
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left">
+        <div class="phone-mockup">
+            <div class="chat-bubble">Hi there! Can you walk my dog?</div>
+            <div class="chat-bubble user">Yes, I can!</div>
+            <div class="chat-bubble">Available times: $29, $49</div>
+            <button class="button">$29 Book Now</button>
+            <button class="button">$49 Book Now</button>
+        </div>
+    </div>
+    <div class="right">
+        <h1>Simple booking</h1>
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+    </div>
+</div>
+
+</body>
+</html>
