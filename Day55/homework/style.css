@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4ff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pricing-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 900px;
+}
+
+.pricing-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 22px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: 0.4s;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.plan {
+    background: #ffffff;
+    width: 30%;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.plan.active {
+    background: linear-gradient(135deg, #6a7dff, #8f59ff);
+    color: white;
+}
+
+.plan.active .btn {
+    background: white;
+    color: #6a7dff;
+}
+
+.plan h3 {
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 32px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    background: #6a7dff;
+    color: #fff;
+}

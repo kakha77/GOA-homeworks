@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #2e2f4f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  overflow: hidden;
+  max-width: 850px;
+  width: 90%;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1b1b31;
+}
+
+p {
+  color: #3a3a3a;
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-bottom: 25px;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #222;
+  font-size: 0.90rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="email"] {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+button {
+  padding: 12px;
+  background-color: #2e2f4f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0,2s;
+}
+
+button:hover {
+  background-color: #43456e;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.illustration {
+  width: 200px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+
+.graph {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  height: 60px;
+  background: linear-gradient(90deg, #fff, #ffd6a5);
+  border-radius: 6px;
+}
+
+.score {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background: #fff;
+  color: #ff5f6d;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.img1 {
+  width: 275px;
+}
+
+.img4 {
+  position: relative;
+  left: 520px;
+  bottom: 305px;
+  max-width: 350px;
+  width: 10vh;
+  height: 10vh;
+}
