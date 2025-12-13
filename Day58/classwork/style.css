@@ -1,0 +1,71 @@
+body {
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    padding: 20px;
+}
+
+.mtavari {
+    width: 500px;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+}
+
+.head {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.head h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.star {
+    width: 28px;
+}
+
+.faq {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 18px 0;
+}
+
+.faq input {
+    display: none;
+}
+
+.kitxva {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kitxva:hover {
+    color: #8c3ade;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+.pasuxi {
+    max-height: 0;
+    overflow: hidden;
+    color: #666;
+    line-height: 1.5;
+    transition: 0.4s;
+    margin-right: 20px;
+}

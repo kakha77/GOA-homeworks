@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background: #fff;
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.calculator-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.calculator-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+form {
+  padding: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.mortgage-type {
+  margin-bottom: 1rem;
+}
+
+.mortgage-type label {
+  margin-right: 1rem;
+}
+
+.calculate-btn {
+  background: #f9c938;
+  color: #000;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.results {
+  background: #14213d;
+  color: #fff;
+  padding: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.results h3 {
+  margin: 6px 0;
+  font-size: 20px;
+  color: #f9c938;
+}
+
+.results p {
+  margin: 0.2rem 0;
+  font-size: 15px;
+  color: #ccc;
+}
