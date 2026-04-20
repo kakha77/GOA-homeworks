@@ -2,7 +2,6 @@ function flipCoin() {
   const random = Math.random();
   return random < 0.5 ? "Heads" : "Tails";
 }
-
 console.log(flipCoin());
 
 
