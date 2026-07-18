@@ -6,8 +6,8 @@
 //every() აბრუნებს true-ს მხოლოდ მაშინ, თუ ყველა ელემენტი აკმაყოფილებს პირობას.
 
 let numbers = [1, 2, 3, 4];
-console.log(numbers.some(num => num > 3)); // true
-console.log(numbers.every(num => num > 0)); // true
+console.log(numbers.some(num => num > 3));
+console.log(numbers.every(num => num > 0));
 let me = {
     name: "Giorgi",
     age: 16,
