@@ -1,0 +1,47 @@
+/*transform-ელემენტს გადაადგილებს, ასევე ადიდებს აპატარავებს ატრიალებს და დაბლა მაღლა ხრის.*/
+
+
+.div1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+.div1:hover{
+    transform: translate(70px, -50px);
+    
+}
+
+
+.div1:hover{
+    transform: translate(-50px, 70px);
+}
+
+
+.div1:hover{
+    transform: scale(1.2, 1.4);
+}
+
+
+.div1:hover{
+    transform: rotate(65deg);
+}
+
+
+
+/*transition-გამოიყენება იმისთვის რომ ანიმაცია მივცეთ ელემენტის მოძრაობას*/
+
+
+.div2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 5s, background-color 3s;
+}
+
+.div2:hover {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}

@@ -1,0 +1,43 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+
+div:hover {
+    animation: grow 5s linear forwards;
+}
+
+
+@keyframes grow {
+    0% {
+        width: 100px;
+        height: 100px;
+    }
+
+    20% {
+        width: 140px;
+        height: 140px;
+    }
+
+    40% {
+        width: 180px;
+        height: 180px;
+    }
+
+    60% {
+        width: 220px;
+        height: 220px;
+    }
+
+    80% {
+        width: 260px;
+        height: 260px;
+    }
+
+    100% {
+        width: 300px;
+        height: 300px;
+    }
+}

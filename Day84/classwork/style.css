@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 2s ease 3s, height 2s ease 3s, background-color 2s ease 3s, color 2s ease 3s;
+}
+
+
+div p {
+    color: white;
+    margin: 0;
+    padding: 10px;
+    transition: color 5s ease 3s;
+}
+
+
+div:hover {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+div p:hover {
+    color: yellow;
+}
