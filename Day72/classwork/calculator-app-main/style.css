@@ -1,0 +1,123 @@
+body {
+    background-color: hsl(222, 26%, 31%);
+}
+
+
+.calculator {
+    width: 800px;
+    margin: 130px auto;
+}
+
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(0, 100%, 100%);
+    margin-bottom: 30px;
+}
+
+
+
+.htag {
+    font-size: 32px;
+}
+
+
+
+
+.theme {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+
+.ptag {
+    font-size: 14px;
+}
+
+
+
+.switch {
+    width: 100px;
+    height: 35px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.numbers {
+    position: absolute;
+    top: -21px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: hsl(0, 100%, 100%);
+    font-size: 14px;
+}
+
+
+
+.circle_button {
+    width: 25px;
+    height: 25px;
+    background-color: hsl(6, 63%, 50%);
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+
+
+.output {
+    height: 70px;
+    background-color: hsl(224, 36%, 15%);
+    border-radius: 10px;
+    color: hsl(0, 100%, 100%);
+    font-size: 55px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+
+
+.buttons {
+    background-color: hsl(224, 36%, 15%);
+    border: none;
+    border-radius: 10px;
+    padding: 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+button {
+    height: 75px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 90%);
+    color: hsl(224, 28%, 35%);
+    font-size: 30px;
+}
+
+
+.blue {
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+}
+
+
+.red {
+    background-color: hsl(6, 63%, 50%);
+    color: white;
+}
+
+.big {
+    grid-column: span 2;
+}
